@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f9f9f9;
+}
+
+.navbar{
+    background-color: #EC1B24;
+
+}
+
+.navbar-text{
+    font-size: 20px;
+    opacity: 1;
+}
+
+.img-logo{
+    width: 50px;
+    height: 30px;
+}
+
+#main img{
+    max-height: 70vh;
+    object-fit: cover;
+}
+
+#carousel{
+    position: relative;
+}
+
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #ffffff;
+}
+
+.overlay{
+    margin-top: 20px;
+}
+
+.titulo-emprendedor{
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parrafo-emprendedor{
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+#registro-texto ::placeholder{
+    font-size: 12px;
+}
+
+#label-texto{
+    font-size: 10px;
+    color: #6F6F6F;
+}
+
+.form-reg{
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    width: 355px;
+}
+
+.registro{
+margin-left: 130px;
+color: #6F6F6F;
+}
+
+#registro-texto{
+    padding-left: 70px;
+}
+
+.btn-reg{
+    background-color: #5D5D5D;
+    width: 190px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.paso{
+    background-color: #EC1B24;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    height: 80px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+.parrafo-paso{
+    font-size: 16px;
+    color: #6E6E6E;
+}
+
+.instructivo{
+    color:#575858;
+}
+.imagen-x{
+    width: 900px;
+    
+}
+
+.mockup{
+    
+    height: 650px;
+    background-color: #EC1B24;
+    margin-top: -150px;
+}
+
+.titulo-mockup{
+    margin-top: 170px;
+    color: #ffffff;
+}
+
+.carousel-inner img{
+    height: 500px;
+}
+
+.text-app{
+    margin-top: 270px;
+    margin-bottom: 20px;
+    color: #575858;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.imagen-app{
+    margin-bottom: 30px;
+}
+
+#footer{
+    background-color: #363636;
+}
+
+
+.p-footer{
+    margin-top: 15px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 5px;
+}
